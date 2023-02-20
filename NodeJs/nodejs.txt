@@ -1,0 +1,13 @@
+NODEJS ARCHITECTURE:
+1)Node.js uses ‘Single Threaded Event Loop’ architecture to handle multiple concurrent clients. 
+2)The Node.js processing model is based on a Js-event-based model and a callback mechanism. 
+3)This mechanism based on the event loop allows Node.js to run blocking I/O operations in a non-blocking way. 
+4)This is a scaling much simpler with a single thread than one thread/new thread per request under ordinary web loads.
+
+ The key elements that make up Node.js architecture.
+1)Requests –  Based on the specific tasks users need to perform in a web application, the requests can either be blocking or non-blocking.
+2)Nodejs server – It accepts user requests, processes them, and returns the results to the corresponding users.
+3)Event queue – It stores the incoming requests and passes them sequentially to the Event Pool.
+4)Event pool – After receiving the client requests from the event queue, it sends responses to corresponding clients.
+5)Thread pool – It contains the threads available for performing those operations necessary to process requests.
+6)External resources – The external resources are used for blocking client requests and can be used for computation, data storage.
