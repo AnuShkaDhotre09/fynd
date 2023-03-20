@@ -12,6 +12,7 @@
 @click="action(n)"
 >
    </div>
+   
 {{ n }}
 </div>
 </div>
