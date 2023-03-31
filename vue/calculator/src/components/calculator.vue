@@ -37,6 +37,7 @@ export default {
         previousCalculatorValue:''
     }
   },
+  
   methods:{
     action(n){
       if(isNaN(n)||n==='.'){
